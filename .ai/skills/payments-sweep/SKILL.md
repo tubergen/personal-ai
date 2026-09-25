@@ -28,7 +28,7 @@ Expect these senders in his mail: Chase, Stripe, PayPal, Mercury, Verizon, Typef
 ## What to leave alone
 
 - marketing that merely mentions a price or a sale
-- order confirmations and shipping mail with no payment detail (Amazon "your order has shipped")
+- order confirmations and shipping mail with no payment detail (Amazon "your order has shipped") - those are archived by the one-off sweep instead
 - statements and tax documents that aren't a payment event - investor statements, NAV Fund Services mail, PFIC/audited financials, AngelList portfolio updates
 - security alerts about an account, even a bank account
 - anything from a person discussing money in conversation

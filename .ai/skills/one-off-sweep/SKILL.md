@@ -1,6 +1,6 @@
 ---
 name: one-off-sweep
-description: Brian's pattern for clearing single-use email out of Gmail - sign-in links, 2FA codes, verifications, Docusign completed notices, privacy-policy and terms-of-service update notices. List, wait for his ok, archive. No unsubscribing. Use when he asks for a one-off sweep.
+description: Brian's pattern for clearing single-use email out of Gmail - sign-in links, 2FA codes, verifications, Docusign completed notices, Amtrak trip mail, order confirmations and shipping notices, privacy-policy and terms-of-service update notices. List, wait for his ok, archive. No unsubscribing. Use when he asks for a one-off sweep.
 ---
 
 # One-off sweep (Brian's default)
@@ -18,7 +18,12 @@ Mail that had a purpose for about 60 seconds and is dead weight after: it was ne
 - device or new-login approval prompts
 - "your code is 123456"
 - Docusign "Completed" notices (dse_*@docusign.net, "Completed: Complete with Docusign: ...")
-- privacy policy / terms of service / legal-terms update notices ("We've updated our Terms of Use", "Updates to X's Privacy Statement") - read-once legal notices from vendors he uses; CVS, Asana, and Google/YouTube payment-terms notices are the examples (added Sep 2026)
+
+- anything from Amtrak (no-reply@acn.amtrak.com "Boarding Location Details", Amtrak@e-mail.amtrak.com "Get ready for your trip to ...") - trip-day logistics that are useless once the train has left
+
+- order confirmations and shipping/delivery notices ("Your order is confirmed - #8S.QLSJ.VWZU", "We've received your Eight Sleep order", "your order has shipped") - the order lives in the vendor account; the email is dead weight once it arrives. Eight Sleep is the example. Receipts with a charge line are payments-sweep territory, not this
+
+- privacy policy / terms of service / legal-terms update notices ("We've updated our Terms of Use", "Updates to X's Privacy Statement") - read-once legal notices from vendors he uses; CVS, Asana, and Google/YouTube payment-terms notices are the examples
 
 His example: "Sign in to Grok Bot".
 
