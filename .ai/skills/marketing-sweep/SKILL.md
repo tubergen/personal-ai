@@ -23,6 +23,11 @@ Flag separately rather than lumping in - he decides these case by case:
 - his pharmacy (NimbleRx)
 - vendor mail that mixes marketing with transactional alerts (ether.fi is the example: `updates@ether.fi` is marketing, `info@ether.fi` alerts are not)
 
+## Archive-only senders
+
+Marketing that gets archived with the rest but is **never unsubscribed**:
+- CoinList (`noreply@coinlist.co`) - archive, do not unsubscribe (his rule, Oct 2026). Copies arrive on several plus-aliases (+123, +emailconfirm1, +testest, +3); that's expected, leave them subscribed.
+
 ## Report format he likes
 
 Grouped by sender, ranked by volume: **name - from address - count - typical subject**. Flag which have a working unsubscribe path and which don't. Then he picks.
