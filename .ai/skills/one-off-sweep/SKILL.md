@@ -1,6 +1,6 @@
 ---
 name: one-off-sweep
-description: Brian's pattern for clearing single-use email out of Gmail - sign-in links, 2FA codes, verifications, Docusign completed notices, Amtrak trip mail, order confirmations and shipping notices, privacy-policy and terms-of-service update notices. List, wait for his ok, archive. No unsubscribing. Use when he asks for a one-off sweep.
+description: Brian's pattern for clearing single-use email out of Gmail - sign-in links, 2FA codes, verifications, Docusign completed notices, trip mail for flights, trains and hotel stays already past (Amtrak, United, hotel pre-arrival notes, Expedia hotel messages), order confirmations and shipping notices, privacy-policy and terms-of-service update notices. List, wait for his ok, archive. No unsubscribing. Use when he asks for a one-off sweep.
 ---
 
 # One-off sweep (Brian's default)
@@ -19,7 +19,13 @@ Mail that had a purpose for about 60 seconds and is dead weight after: it was ne
 - "your code is 123456"
 - Docusign "Completed" notices (dse_*@docusign.net, "Completed: Complete with Docusign: ...")
 
-- anything from Amtrak (no-reply@acn.amtrak.com "Boarding Location Details", Amtrak@e-mail.amtrak.com "Get ready for your trip to ...") - trip-day logistics that are useless once the train has left
+- trip mail for a flight, train, or hotel stay that is already over - pre-trip and trip-day logistics that are useless once the trip has happened. Examples:
+  - anything from Amtrak (no-reply@acn.amtrak.com "Boarding Location Details", Amtrak@e-mail.amtrak.com "Get ready for your trip to ...")
+  - airline trip prep (United notifications@united.com "What to know about your trip to ...", "Preorder your meal for your flight to ...")
+  - hotel pre-arrival and check-in notes (Four Seasons "your upcoming stay is almost here" / "help us make your arrival seamless", Genji Kyoto "Pre-Arrival Email", Marriott "Check-In Instructions for ...")
+  - Expedia "<hotel> sent you a message" (expedia@eg.expedia.com, reservations_*@chat.expedia.com)
+
+  Only once the trip or stay has ended (his rule, Nov 2026 - it used to cover Amtrak only). Mail for a trip still ahead or in progress stays in the inbox. Booking confirmations, itineraries and e-tickets are not this and stay put; receipts with a charge line are payments-sweep territory
 
 - order confirmations and shipping/delivery notices ("Your order is confirmed - #8S.QLSJ.VWZU", "We've received your Eight Sleep order", "your order has shipped") - the order lives in the vendor account; the email is dead weight once it arrives. Eight Sleep is the example. Receipts with a charge line are payments-sweep territory, not this
 
